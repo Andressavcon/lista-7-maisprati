@@ -10,10 +10,10 @@ public class TextEditorUndo {
         String option;
 
         do {
-            System.out.println("\n1. Adicionar texto");
-            System.out.println("2. Desfazer última ação");
-            System.out.println("3. Exibir conteúdo atual");
-            System.out.println("4. Sair");
+            System.out.println("\n(1) Adicionar texto");
+            System.out.println("(2) Desfazer última ação");
+            System.out.println("(3) Exibir conteúdo atual");
+            System.out.println("(4) Sair");
             System.out.print("Escolha uma opção: ");
             option = scanner.nextLine();
 

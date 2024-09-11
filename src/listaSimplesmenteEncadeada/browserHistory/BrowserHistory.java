@@ -9,9 +9,9 @@ public class BrowserHistory {
         String option;
 
         do {
-            System.out.println("\n1- Adicionar nova URL");
-            System.out.println("2- Exibir histórico");
-            System.out.println("3- Sair");
+            System.out.println("\n(1) Adicionar nova URL");
+            System.out.println("(2) Exibir histórico");
+            System.out.println("(3) Sair");
             System.out.print("Escolha uma opção: ");
             option = scanner.nextLine();
 

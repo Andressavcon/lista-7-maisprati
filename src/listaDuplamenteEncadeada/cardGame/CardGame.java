@@ -10,11 +10,11 @@ public class CardGame {
         String option;
 
         do {
-            System.out.println("\n1. Adicionar carta à mão");
-            System.out.println("2. Remover carta da mão");
-            System.out.println("3. Reorganizar carta");
-            System.out.println("4. Exibir mão");
-            System.out.println("5. Sair");
+            System.out.println("\n(1) Adicionar carta à mão");
+            System.out.println("(2) Remover carta da mão");
+            System.out.println("(3) Reorganizar carta");
+            System.out.println("(4) Exibir mão");
+            System.out.println("(5) Sair");
             System.out.print("Escolha uma opção: ");
             option = scanner.nextLine();
 

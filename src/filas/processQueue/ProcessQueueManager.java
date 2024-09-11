@@ -9,10 +9,10 @@ public class ProcessQueueManager {
         String option;
 
         do {
-            System.out.println("\n1- Adicionar novo processo");
-            System.out.println("2- Executar próximo processo");
-            System.out.println("3- Exibir processos pendentes");
-            System.out.println("4- Sair");
+            System.out.println("\n(1) Adicionar novo processo");
+            System.out.println("(2) Executar próximo processo");
+            System.out.println("(3) Exibir processos pendentes");
+            System.out.println("(4) Sair");
             System.out.print("Escolha uma opção: ");
             option = scanner.nextLine();
 

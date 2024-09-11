@@ -10,11 +10,11 @@ public class TextEditorUndoRedo {
         String option;
 
         do {
-            System.out.println("\n1. Adicionar texto");
-            System.out.println("2. Desfazer (Undo)");
-            System.out.println("3. Refazer (Redo)");
-            System.out.println("4. Exibir conteúdo atual");
-            System.out.println("5. Sair");
+            System.out.println("\n(1) Adicionar texto");
+            System.out.println("(2) Desfazer (Undo)");
+            System.out.println("(3) Refazer (Redo)");
+            System.out.println("(4) Exibir conteúdo atual");
+            System.out.println("(5) Sair");
             System.out.print("Escolha uma opção: ");
             option = scanner.nextLine();
 

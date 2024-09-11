@@ -8,10 +8,10 @@ public class PrintQueueManager {
         String option;
 
         do {
-            System.out.println("\n1. Adicionar trabalho de impressão");
-            System.out.println("2. Processar próximo trabalho de impressão");
-            System.out.println("3. Exibir trabalhos pendentes");
-            System.out.println("4. Sair");
+            System.out.println("\n(1) Adicionar trabalho de impressão");
+            System.out.println("(2) Processar próximo trabalho de impressão");
+            System.out.println("(3) Exibir trabalhos pendentes");
+            System.out.println("(4) Sair");
             System.out.print("Escolha uma opção: ");
             option = scanner.nextLine();
 

@@ -11,10 +11,10 @@ public class BankQueueSimulator {
         String option;
 
         do {
-            System.out.println("\n1. Adicionar cliente à fila");
-            System.out.println("2. Chamar próximo cliente");
-            System.out.println("3. Exibir fila de clientes");
-            System.out.println("4. Sair");
+            System.out.println("\n(1) Adicionar cliente à fila");
+            System.out.println("(2) Chamar próximo cliente");
+            System.out.println("(3) Exibir fila de clientes");
+            System.out.println("(4) Sair");
             System.out.print("Escolha uma opção: ");
             option = scanner.nextLine();
 
