@@ -10,10 +10,10 @@ public class TaskManager {
         String option;
 
         do {
-            System.out.println("\n1- Adicionar tarefa");
-            System.out.println("2- Marcar tarefa como concluída");
-            System.out.println("3- Exibir tarefas");
-            System.out.println("4- Sair");
+            System.out.println("\n(1) Adicionar tarefa");
+            System.out.println("(2) Marcar tarefa como concluída");
+            System.out.println("(3) Exibir tarefas");
+            System.out.println("(4) Sair");
             System.out.print("Escolha uma opção: ");
             option = scanner.nextLine();
 
